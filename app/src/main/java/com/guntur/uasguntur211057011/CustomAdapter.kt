@@ -1,5 +1,6 @@
 package com.guntur.uasguntur211057011
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.core.app.NotificationCompat
 import com.guntur.uasguntur211057011.R
 
 class CustomAdapter  (context: Context, arrayListDetails: ArrayList<Model>) : BaseAdapter(){
